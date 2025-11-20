@@ -30,4 +30,4 @@ elif operation == "/":
 else:
     result = "Неверная операция"
 
-print(f"Результат: {result}")
+print(f"Ответ: {result}")
