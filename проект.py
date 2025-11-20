@@ -7,6 +7,7 @@ print("+ - сложение")
 print("- - вычитание")
 print("* - умножение")
 print("/ - деление")
+print("** - возведение в степень")
 
 operation = input("Операция: ")
 
@@ -16,6 +17,8 @@ elif operation == "-":
     result = num1 - num2
 elif operation == "*":
     result = num1 * num2
+elif operation == "**":
+    result = num1 ** num2
 elif operation == "/":
     if num2 != 0:
         result = num1 / num2
